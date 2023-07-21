@@ -19,7 +19,6 @@ img {
 .container h1 {
     padding-top: 30px;
     text-align: center;
-    font-size: 40px;
     color: #000;
 }
 .container h4 {
@@ -33,9 +32,8 @@ img {
     justify-content: center;
     align-items: center;
 }
-.container p{
+.container h2{
     padding: 30px;
-    font-size: 25px;
     text-align: center;
     font-weight: bold;
     opacity: 90%;
@@ -154,9 +152,10 @@ img {
 
     .quote {
         font-size: 20px;
+        height: 25vh;
     }
 
     .quote blockquote {
-        width: 100%;
+        width: 90%;
     }
 }
