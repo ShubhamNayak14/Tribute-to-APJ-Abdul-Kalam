@@ -60,7 +60,7 @@ img {
 .timeline li {
     list-style-type: none;
     padding: 30px 50px;
-    border-left: 3px solid gold;
+    border-left: 3px solid #fff;
     position: relative;
     font-size: 18px;
     color: #0a100d;
@@ -71,7 +71,7 @@ img {
     height: 20px;
     width: 20px;
     border-radius: 10px;
-    background: gold;
+    background: #fff;
     position: absolute;
     top: 38%;
     left: -11px;
