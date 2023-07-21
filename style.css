@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    line-height: 1.6;
+    height: 100vh;
+    background-color: #fff;
+}
+
+img {
+    width: 40%;
+    border-radius: 40px;
+}
+
+.container h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+}
+.container h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.timeline {
+    background: #adb5bd;
+    margin: 0 auto;
+
+}
+
+.timeline h2 {
+    margin-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.timeline ul {
+    padding: 0 150px;
+}
+
+.timeline li {
+    list-style-type: none;
+    padding: 30px 50px;
+    border-left: 3px solid gold;
+    position: relative;
+    font-size: 18px;
+    color: #0a100d;
+}
+
+.timeline li:before {
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: gold;
+    position: absolute;
+    top: 38%;
+    left: -11px;
+}
+
+.quote {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #343a40;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.quote blockquote {
+    width: 60%;
+}
+
+.quote .said-by {
+    text-align: right;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.footer {
+    background:#adb5bd;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer .wiki-link {
+    color: #0a100d;
+    text-decoration: underline;
+}
+
+.footer a
+ {
+    color: #000;
+    opacity: 90%;
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .header {
+        flex-flow: column;
+    }
+
+    .header .img-container {
+        width: 100vw;
+        height: auto;
+        background-color: rgba(255, 215, 0, 0.9);
+    }
+
+    .header .img-overlay {
+        display: none;
+    }
+
+    .header .img-container img {
+        height: auto;
+    }
+
+    .header .info-container {
+        width: 100vw;
+        display: block;
+    }
+
+    .timeline ul {
+        padding: 0 0 0 30px;
+    }
+
+    .timeline li {
+        padding: 20px 20px 20px 30px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+
+    .quote blockquote {
+        width: 100%;
+    }
+}
