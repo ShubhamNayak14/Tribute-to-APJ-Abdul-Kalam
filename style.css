@@ -76,7 +76,51 @@ img {
     top: 38%;
     left: -11px;
 }
+.about{
+align-items: center;
+justify-content: center;
+    padding-top: 50px;
+}
 
+.container1{
+    background-color: #343a40;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+}
+.container1 p{
+    padding-left: 2rem;
+    padding: 30px;
+}
+.btn{
+ 
+    border: none;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    margin: 10px 45% ;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: gold;
+    color: #fff;
+    
+}
+ .link {
+    left: 80px;
+    color:#000;
+    text-decoration: none;
+}
 .quote {
     height: 50vh;
     display: flex;
@@ -95,7 +139,7 @@ img {
 
 .quote .said-by {
     text-align: right;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -121,33 +165,24 @@ img {
 }
 
 @media(min-width:320px) and (max-width:480px) {
-    .header {
-        flex-flow: column;
+    .container h1{
+        font-size: 25px;
     }
-
-    .header .img-container {
-        width: 100vw;
-        height: auto;
-        background-color: rgba(255, 215, 0, 0.9);
+    img{
+        width: 90%;
     }
-
-    .header .img-overlay {
-        display: none;
+    .container h4{
+        font-size: 12px;
     }
-
-    .header .img-container img {
-        height: auto;
+    .container p{
+        font-size: 20px;
     }
-
-    .header .info-container {
-        width: 100vw;
-        display: block;
-    }
-
     .timeline ul {
         padding: 0 0 0 30px;
     }
-
+    .btn{
+        margin: 20px 50% ;
+    }
     .timeline li {
         padding: 20px 20px 20px 30px;
     }
@@ -155,8 +190,14 @@ img {
     .quote {
         font-size: 20px;
     }
+    .said-by{
+      font-size: x-small;
+      padding-top: 20px;
+          padding-right: 20px;
+    }
 
     .quote blockquote {
         width: 100%;
     }
 }
+
